@@ -1,0 +1,29 @@
+{
+  "name": "babel-preset-env-browserslist-optional-chaining-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel input.js",
+    "list-browsers": "browserslist --coverage=US --json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdaringe/babel-preset-env-browserslist-optional-chaining-bug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdaringe/babel-preset-env-browserslist-optional-chaining-bug/issues"
+  },
+  "homepage": "https://github.com/cdaringe/babel-preset-env-browserslist-optional-chaining-bug#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "browserslist": "^4.19.1",
+    "caniuse-lite": "^1.0.30001294"
+  }
+}
